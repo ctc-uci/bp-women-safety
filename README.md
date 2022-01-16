@@ -1,7 +1,5 @@
 # DubHub
 
-This template will be used to create all NPO frontend repos
-
 ## Setting up development environment
 
 To start working on with this project, follow these steps:
