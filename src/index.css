@@ -1,12 +1,10 @@
 @font-face {
-  font-family: "Avenir";
-  src: url("./fonts/AvenirLTStd-Roman.otf");
+  font-family: 'Avenir';
+  src: url('./fonts/AvenirLTStd-Roman.otf');
 }
 
 html {
-  font-family: "Avenir", courier;
+  font-family: 'Avenir', courier;
   /*-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;*/
 }
-
-
