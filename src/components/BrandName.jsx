@@ -8,7 +8,7 @@ function BrandName() {
     crossorigin="anonymous"
   />;
 
-  return <p id='footText'>© BrandName. All rights reserved.</p>;
+  return <p id="footText">© BrandName. All rights reserved.</p>;
 }
 
 export default BrandName;

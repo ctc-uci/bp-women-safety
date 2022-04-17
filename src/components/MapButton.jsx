@@ -1,6 +1,5 @@
 import './MapButton.css';
 
-
 function MapButton(props) {
   return <button type="button">{props.name}</button>;
 }

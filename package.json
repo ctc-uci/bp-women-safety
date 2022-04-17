@@ -12,7 +12,9 @@
     "react-bootstrap": "^2.2.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "react-router-dom": "6"
+
   },
   "optionalDependencies": {
     "babel-loader": "8.1.0"
@@ -61,11 +63,11 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.12",
-    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-links": "^6.3.12",
     "@storybook/node-logger": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.12",
+    "@storybook/react": "^6.4.22",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",

@@ -12,20 +12,19 @@ function App() {
   return (
     <div className="App">
       <div className="Header">
-    <p>epic navbar</p>
+        <p>epic navbar</p>
       </div>
 
       <div className="MapBody">
         <Map />
       </div>
 
-        <Feature />
+      <Feature />
 
       <div className="Footer">
         <Footer />
         <BrandName />
       </div>
-
     </div>
   );
 }

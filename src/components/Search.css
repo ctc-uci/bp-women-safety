@@ -1,0 +1,11 @@
+.searchbar {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+.searchbar #icon1 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+}

@@ -8,25 +8,25 @@ import Col from 'react-bootstrap/Col';
 import './Map.css';
 
 function Map() {
-  return <>
-  <div className="overlay">
-    <Container>
-      <Row>
-        <Search />
-        <div className="mapbutton">
-          <MapButton name="Emergency Poles" />
-          <MapButton name="Hotlines" />
-          <MapButton name="Gender Inclusive Restrooms" />
-          <MapButton name="Free Menstruel Products" />
-          <MapButton name="Lactation Rooms" />
-        </div>
-      </Row>
-    </Container>
-
-    </div>
-    <img classname="map" src={tempmap} alt="Map" />
-  </>
-
+  return (
+    <>
+      <div className="overlay">
+        <Container>
+          <Row>
+            <Search />
+            <div className="mapbutton">
+              <MapButton name="Emergency Poles" />
+              <MapButton name="Hotlines" />
+              <MapButton name="Gender Inclusive Restrooms" />
+              <MapButton name="Free Menstruel Products" />
+              <MapButton name="Lactation Rooms" />
+            </div>
+          </Row>
+        </Container>
+      </div>
+      <img classname="map" src={tempmap} alt="Map" />
+    </>
+  );
 }
 
 export default Map;

@@ -3,9 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from './Card';
 import anime from '../images/woman.jpg';
-import womxnpic from '../images/WomxnCenterPic.jpg'
-import freshpic from '../images/FreshHubPic.jpg'
-import bluelightpic from '../images/BlueLight.jpg'
+import womxnpic from '../images/WomxnCenterPic.jpg';
+import freshpic from '../images/FreshHubPic.jpg';
+import bluelightpic from '../images/BlueLight.jpg';
 import './Feature.css';
 function Feature() {
   let womxnText =
@@ -15,21 +15,35 @@ function Feature() {
   let emBlueLight =
     'These phones provide 24-hour direct communication to UCIPD and can be used to report crime, fire, accidents, suspicious behavior or activity, or medical emergencies.';
   return (
-    <div id='feature'>
-      <h1 id='mainHeader'>Featured Resources</h1>
+    <div id="feature">
+      <h1 id="mainHeader">Featured Resources</h1>
       <Container>
         <Row>
           <Col>
             {' '}
-            <Card title={"Womxn's Center for Success"} text={womxnText} img={womxnpic} link={'https://womxnscenter.uci.edu/'} />{' '}
+            <Card
+              title={"Womxn's Center for Success"}
+              text={womxnText}
+              img={womxnpic}
+              link={'https://womxnscenter.uci.edu/'}
+            />{' '}
           </Col>
           <Col>
             {' '}
-            <Card title={'Fresh Hub'} text={freshHub} img={freshpic} link={'https://basicneeds.uci.edu/'}/>{' '}
+            <Card
+              title={'Fresh Hub'}
+              text={freshHub}
+              img={freshpic}
+              link={'https://basicneeds.uci.edu/'}
+            />{' '}
           </Col>
           <Col>
             {' '}
-            <Card title={'Emergency Blue Light Phones'} text={emBlueLight} img={bluelightpic}/>{' '}
+            <Card
+              title={'Emergency Blue Light Phones'}
+              text={emBlueLight}
+              img={bluelightpic}
+            />{' '}
           </Col>
         </Row>
       </Container>

@@ -1,4 +1,9 @@
+import React from 'react';
 import { useState } from 'react';
+
+import baricon from '../images/baricon.png';
+import searchicon from '../images/searchicon.png';
+import './Search.css';
 
 function Search() {
   const [query, setQuery] = useState('');
@@ -9,12 +14,14 @@ function Search() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        placeholder="Search"
-        type="text"
-        value={query}
-        onChange={e => setQuery(e.target.value)}
-      />
+      <div class="searchbar">
+        <input
+          placeholder="Search"
+          type="text"
+          value={query}
+          onChange={e => setQuery(e.target.value)}
+        />
+      </div>
     </form>
   );
 }

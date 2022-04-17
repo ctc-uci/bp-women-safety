@@ -3,10 +3,10 @@ import './Card.css';
 function Card(props) {
   return (
     <a id="card" href={props.link}>
-      <div>
+      <div id="imgHolder">
         <img src={props.img} />
       </div>
-      <div id='textArea'>
+      <div id="textArea">
         <h5>{props.title}</h5>
         <p>{props.text}</p>
       </div>
