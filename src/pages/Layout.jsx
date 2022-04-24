@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 /*add link later*/
 
 const Layout = () => {
+  return (
   <>
     <nav>
       <p>Navbar</p>
@@ -13,7 +14,7 @@ const Layout = () => {
       <Footer />
       <BrandName />
     </div>
-  </>;
+  </>);
 };
 
 export default Layout;
