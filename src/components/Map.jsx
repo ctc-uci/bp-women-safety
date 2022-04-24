@@ -24,7 +24,7 @@ function Map() {
           </Row>
         </Container>
       </div>
-      <img classname="map" src={tempmap} alt="Map" />
+      <img className="map" src={tempmap} alt="Map" />
     </>
   );
 }

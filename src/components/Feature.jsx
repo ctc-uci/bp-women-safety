@@ -17,6 +17,7 @@ function Feature() {
   return (
     <div id="feature">
       <h1 id="mainHeader">Featured Resources</h1>
+      {/*
       <Container>
         <Row>
           <Col>
@@ -47,6 +48,7 @@ function Feature() {
           </Col>
         </Row>
       </Container>
+  */}
     </div>
   );
 }

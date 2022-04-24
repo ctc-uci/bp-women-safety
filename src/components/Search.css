@@ -1,3 +1,17 @@
+
+input {
+  height: 2rem;
+  border: 0;
+  outline: none;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
+
+
+/*
 .searchbar {
   position: relative;
   display: flex;
@@ -9,3 +23,4 @@
   width: 5px;
   height: 5px;
 }
+*/

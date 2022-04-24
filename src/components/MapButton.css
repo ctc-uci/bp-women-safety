@@ -1,11 +1,10 @@
 button {
-  /* Gray/100 */
-
+  outline: none !important;
+  border-radius: 10px !important;
   background: #fcfcfd;
-  /* Elevation 1 */
-  border: none;
-  border-radius: 30px;
+  color: grey;
+  border: transparent;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-  perspective: 1px;
   overflow: hidden;
+  perspective: 1px;
 }

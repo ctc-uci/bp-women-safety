@@ -3,7 +3,9 @@
   position: absolute;
 }
 
-img {
-  width: 100%;
+
+.map {
+  width: 1600px; /* need to make responsive */
   height: 400px;
 }
+

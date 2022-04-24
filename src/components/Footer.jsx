@@ -18,7 +18,7 @@ function Footer() {
       <Container>
         <Row>
           <Col>
-            <img class="logo" src={logo} />
+            <img className="logo" src={logo} />
           </Col>
           <Col>
             <div className={''}>
