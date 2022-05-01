@@ -1,11 +1,14 @@
 .overlay {
+  margin-top: 10px;
   z-index: 9;
   position: absolute;
 }
-
 
 .map {
   width: 1600px; /* need to make responsive */
   height: 400px;
 }
 
+.elements {
+  padding: 100px;
+}

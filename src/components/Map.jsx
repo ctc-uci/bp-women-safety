@@ -1,10 +1,11 @@
-import tempmap from '../images/temp_map.png';
-import Search from '../components/Search';
-import MapButton from './MapButton';
+import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Search from './Search';
+import MapButton from './MapButton';
+
+import tempmap from '../images/temp_map.png';
 import './Map.css';
 
 function Map() {
@@ -12,7 +13,7 @@ function Map() {
     <>
       <div className="overlay">
         <Container>
-          <Row>
+          <Row className="elements">
             <Search />
             <div className="mapbutton">
               <MapButton name="Emergency Poles" />
