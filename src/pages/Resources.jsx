@@ -59,6 +59,9 @@ const Resources = () => {
     </Container>
   </div>
   <p>Can&apos;t find the resource you&apos;re looking for? </p>
+  <div className="center">
+    <a href="#">Learn more →</a>
+  </div>
   {/*<Link to="./About">Find out more</Link>*/}
   </div>
 
