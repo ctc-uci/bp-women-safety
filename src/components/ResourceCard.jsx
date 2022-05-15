@@ -1,5 +1,7 @@
 import React from 'react';
-import './Card.css';
+import Card from 'react-bootstrap/Card';
+import './ResourceCard.css';
+
 function ResourceCard(props) {
   return (
     <>
