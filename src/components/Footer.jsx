@@ -12,24 +12,38 @@ function Footer() {
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       />
 
       <Container>
         <Row>
           <Col>
-            <img class="logo" src={logo} />
+            <img className="logo" src={logo} alt="website logo" />
           </Col>
           <Col>
-            <div className={''}>
+            <div>
               <h3>Resources</h3>
               <ul>
-                <li>Womxn's Center for Success</li>
-                <li>Fresh Hub</li>
-                <li>Safety Escorts</li>
-                <li>CARE</li>
-                <li>Emergency Poles</li>
-                <li>Counseling Center</li>
+                <li>
+                  <a href="https://womxnscenter.uci.edu/">Womxn&apos;s Center for Success</a>
+                </li>
+                <li>
+                  <a href="https://basicneeds.uci.edu/">Fresh Hub</a>
+                </li>
+                <li>
+                  <a href="https://www.police.uci.edu/how-do-i/safety-escort.php">Safety Escorts</a>
+                </li>
+                <li>
+                  <a href="https://care.uci.edu/">CARE</a>
+                </li>
+                <li>
+                  <a href="https://www.police.uci.edu/how-do-i/_brochures/bluelight_phones.pdf">
+                    Emergency Poles
+                  </a>
+                </li>
+                <li>
+                  <a href="https://counseling.uci.edu/">Counseling Center</a>
+                </li>
                 <li>Hotlines</li>
               </ul>
             </div>

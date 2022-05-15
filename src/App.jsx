@@ -1,10 +1,8 @@
 import React from 'react';
-import Footer from './components/Footer.jsx';
-import Map from './components/Map.jsx';
-import Search from './components/Search.jsx';
-import MapButton from './components/Map-Button.jsx';
-import Feature from './components/Feature.jsx';
-import BrandName from './components/BrandName.jsx';
+import Footer from './components/Footer';
+import Map from './components/Map';
+import Feature from './components/Feature';
+import BrandName from './components/BrandName';
 
 import './App.css';
 import tempmap from './images/temp_map.png';
@@ -13,17 +11,20 @@ import tempmap from './images/temp_map.png';
 function App() {
   return (
     <div className="App">
-      <Search />
-      <MapButton name="Emergency Poles" />
-      <MapButton name="Hotlines" />
-      <MapButton name="Gender Inclusive Restrooms" />
-      <MapButton name="Free Menstruel Products" />
-      <MapButton name="Lactation Rooms" />
+      <div className="Header">
+        <p>epic navbar</p>
+      </div>
 
-      <Map />
+      <div className="MapBody">
+        <Map />
+      </div>
+
       <Feature />
-      <Footer />
-      <BrandName />
+
+      <div className="Footer">
+        <Footer />
+        <BrandName />
+      </div>
     </div>
   );
 }

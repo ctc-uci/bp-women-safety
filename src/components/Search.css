@@ -1,0 +1,44 @@
+
+input {
+  height: 2rem;
+  border: 0;
+  outline: none;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
+
+#menu {
+  background-image: url("../images/baricon.png");
+  background-size: cover;
+  outline: none !important;
+  border: none !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+#search {
+  background-image: url("../images/searchicon.png");
+  background-size: cover;
+  outline: none !important;
+  border: none !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+/*
+.searchbar {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+}
+
+.searchbar #icon1 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+}
+*/

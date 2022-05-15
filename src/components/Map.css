@@ -1,0 +1,34 @@
+.overlay {
+  /* margin-top: 1rem; */
+  /* z-index: 9; this does what? */
+  position: absolute;
+}
+
+/* styling for iframe if we end up using it, will take extra work/decisions but easier */
+.imap {
+  width: 100rem; /* need to make responsive */
+  height: 25rem;
+}
+
+/* currently shown as an image */
+.map {
+  width: 100rem;
+  height: 25em;
+}
+
+.elements {
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+.search {
+  grid-row: 1 / 2;
+}
+
+.mapbutton {
+  grid-row: 2 / 2;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1em;
+}
