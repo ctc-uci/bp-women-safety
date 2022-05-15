@@ -17,3 +17,8 @@ p {
 div .center {
   text-align: center;
 }
+
+div .Cards {
+  margin-left: 25em;
+  margin-right: auto;
+}
