@@ -10,6 +10,24 @@ img {
   height: 32px;
 }
 
+#menu {
+  background-image: url("../images/baricon.png");
+  background-size: cover;
+  outline: none !important;
+  border: none !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+#search {
+  background-image: url("../images/searchicon.png");
+  background-size: cover;
+  outline: none !important;
+  border: none !important;
+  width: 2rem;
+  height: 2rem;
+}
+
 
 /*
 .searchbar {
