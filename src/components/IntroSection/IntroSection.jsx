@@ -1,19 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './IntroSection.module.css';
 import '../../common/vars.css';
-import freshHub from '../../images/FreshHubPic.jpg';
 
-const IntroSection = () => {
+const IntroSection = ({ title, desc, link, img }) => {
   return (
     <div className={styles.main}>
       <div className={styles.text}>
-        <div className={styles.title}>Fresh Hub</div>
-        <div className={styles.desc}>
-          FRESH Basic Needs Hub is a student-initiated effort that promotes equitable access to
-          basic needs through student empowerment, community collaboration, and institutional
-          integration.
-        </div>
-        <a href="https://basicneeds.uci.edu/" target="_blank" rel="noreferrer">
+        <div className={styles.title}>{title}</div>
+        <div className={styles.desc}>{desc}</div>
+        <a href={link} target="_blank" rel="noreferrer" className={styles['learn-more']}>
           <span>Learn more</span>
           <svg
             width="20"
@@ -32,9 +28,23 @@ const IntroSection = () => {
           </svg>
         </a>
       </div>
-      <img src={freshHub} alt="" className={styles['display-img']} />
+      <img src={img} alt="" className={styles['display-img']} />
     </div>
   );
+};
+
+IntroSection.defaultProps = {
+  title: '',
+  desc: '',
+  link: '',
+  img: '',
+};
+
+IntroSection.propTypes = {
+  title: PropTypes.string,
+  desc: PropTypes.string,
+  link: PropTypes.string,
+  img: PropTypes.element,
 };
 
 export default IntroSection;

@@ -38,7 +38,7 @@ body{
   color: var(--light-text);
 }
 
-a {
+.learn-more {
   display: flex;
   align-items: center;
   color: var(--primary-purple);
@@ -62,6 +62,10 @@ a > span{
 
   .main{
     flex-direction: column;
+  }
+
+  .text{
+    margin-bottom: 30px;
   }
 
   .main > * {

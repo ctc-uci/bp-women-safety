@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import Map from './components/Map';
 import Feature from './components/Feature';
 import BrandName from './components/BrandName';
-import AboutSection from './components/AboutSection/AboutSection';
+import AboutSection from './components/IntroSection/IntroSection';
 
 import './App.css';
 // import tempmap from './images/temp_map.png';

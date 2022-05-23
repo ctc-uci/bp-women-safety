@@ -1,27 +1,29 @@
-/* eslint-disable react/react-in-jsx-scope */
-/* eslint-disable react/jsx-no-comment-textnodes */
-// import { Outlet } from 'react-router-dom';
-// import BrandName from '../components/BrandName';
-// import Footer from '../components/Footer';
-// import { Link } from 'react-router-dom';
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
+import BrandName from '../components/BrandName';
+import Footer from '../components/Footer';
 import './Layout.css';
-import IntroSection from '../components/IntroSection/IntroSection';
 
 const Layout = () => {
   return (
-    // eslint-disable-next-line react/react-in-jsx-scope
     <>
-      {/* <nav>
+      <nav>
         <p>Navbar</p>
-        <Link to="" className="link">Home Page  </Link>
-        <Link to="/Resources" className="link">All Resources Page  </Link>
-      </nav> */}
-      <IntroSection />
-      {/* <Outlet />
+        <Link to="/" className="link">
+          Home Page{' '}
+        </Link>
+        <Link to="/Resources" className="link">
+          All Resources Page{' '}
+        </Link>
+        <Link to="/FreshHub" className="link">
+          Fresh Hub{' '}
+        </Link>
+      </nav>
+      <Outlet />
       <div className="Footer">
         <Footer />
         <BrandName />
-      </div> */}
+      </div>
     </>
   );
 };
