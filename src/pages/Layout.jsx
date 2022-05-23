@@ -5,7 +5,7 @@
 // import Footer from '../components/Footer';
 // import { Link } from 'react-router-dom';
 import './Layout.css';
-import AboutSection from '../components/AboutSection/AboutSection';
+import IntroSection from '../components/IntroSection/IntroSection';
 
 const Layout = () => {
   return (
@@ -16,7 +16,7 @@ const Layout = () => {
         <Link to="" className="link">Home Page  </Link>
         <Link to="/Resources" className="link">All Resources Page  </Link>
       </nav> */}
-      <AboutSection />
+      <IntroSection />
       {/* <Outlet />
       <div className="Footer">
         <Footer />
