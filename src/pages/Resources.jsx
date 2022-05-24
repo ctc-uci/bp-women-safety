@@ -44,24 +44,44 @@ const Resources = () => {
   <div className="Cards">
   <Container>
       <Row>
-        <ResourceCard link={cardlink1} img={cardimg1} title="Womxn&apos;s Center for Success" txt={cardtxt1}/>
-        <ResourceCard link={cardlink2} img={cardimg2} title="Fresh Hub" txt={cardtxt2}/>
-        <ResourceCard link={cardlink3} img={cardimg3} title="Emergency Poles" txt={cardtxt3}/>
+        <div className="row">
+          <div className="col1">
+            <ResourceCard link={cardlink1} img={cardimg1} title="Womxn&apos;s Center for Success" txt={cardtxt1}/>
+          </div>
+          <div className="col2">
+            <ResourceCard link={cardlink2} img={cardimg2} title="Fresh Hub" txt={cardtxt2}/>
+          </div>
+          <div className="col3">
+            <ResourceCard link={cardlink3} img={cardimg3} title="Emergency Poles" txt={cardtxt3}/>
+          </div>
+        </div>
       </Row>
       <Row>
-        <ResourceCard link={cardlink4} img={cardimg4} title="Abuse Assistance" txt={cardtxt4}/>
-        <ResourceCard link={cardlink5} img={cardimg5} title="Safety Escorts" txt={cardtxt5}/>
-        <ResourceCard link={cardlink6} img={cardimg6} title="Counseling Center" txt={cardtxt6}/>
+      <div className="row">
+        <div className="col1">
+          <ResourceCard link={cardlink4} img={cardimg4} title="Abuse Assistance" txt={cardtxt4}/>
+        </div>
+        <div className="col2">
+          <ResourceCard link={cardlink5} img={cardimg5} title="Safety Escorts" txt={cardtxt5}/>
+        </div>
+        <div className="col3">
+          <ResourceCard link={cardlink6} img={cardimg6} title="Counseling Center" txt={cardtxt6}/>
+        </div>
+      </div>
       </Row>
       <Row>
-        <ResourceCard link={cardlink7} img={cardimg7} title="Hotlines" txt={cardtxt7}/>
+        <div className="row">
+          <div className="bottomcard">
+            <ResourceCard link={cardlink7} img={cardimg7} title="Hotlines" txt={cardtxt7}/>
+          </div>
+        </div>
       </Row>
     </Container>
   </div>
-  <p>Can&apos;t find the resource you&apos;re looking for? </p>
+  {/* <p>Can&apos;t find the resource you&apos;re looking for? </p>
   <div className="center">
     <a href="#">Learn more →</a>
-  </div>
+  </div> */}
   {/*<Link to="./About">Find out more</Link>*/}
   </div>
 

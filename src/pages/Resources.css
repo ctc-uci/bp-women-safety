@@ -8,6 +8,9 @@ html {
 
 h1 {
   text-align: center;
+  margin-left: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 p {
@@ -21,4 +24,21 @@ div .center {
 div .Cards {
   margin-left: 25em;
   margin-right: auto;
+}
+
+.row {
+  margin: 1rem;
+}
+
+.col1 {
+  margin-right: 3em;
+}
+
+.col2 {
+  margin-right: 3em;
+}
+
+.bottomcard {
+  margin-left: 18em;
+  padding-bottom: 3rem;
 }
