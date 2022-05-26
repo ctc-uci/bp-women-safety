@@ -11,14 +11,15 @@ import NoPage from './pages/NoPage';
 import './index.css';
 import './fonts/AvenirLTStd-Black.otf';
 
+
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Resources" element={<Resources />} />
           <Route path="About" element={<About />} />
+          <Route path="/Resources" element={<Resources />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
