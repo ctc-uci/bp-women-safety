@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card.css';
+import Card from 'react-bootstrap/Card'
 function ResourceCard(props) {
   return (
     <>

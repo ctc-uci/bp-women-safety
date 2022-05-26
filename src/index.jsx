@@ -6,6 +6,8 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import NoPage from './pages/NoPage';
+import WomxnCenter from './pages/WomxnCenter';
+import SafetyEscorts from './pages/SafetyEscorts';
 
 import './index.css';
 import './fonts/AvenirLTStd-Black.otf';
@@ -17,6 +19,8 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="Resources" element={<Resources />} />
+          <Route path="/womxncenter" element ={<WomxnCenter />} />
+          <Route path="/safetyEscorts" element={<SafetyEscorts/>} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
