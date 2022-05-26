@@ -21,14 +21,14 @@ function Navbar() {
           <div className="navbutton">
             <NavLink to="/Resources" className="link" style={{textDecoration: 'none'}}>All Resources</NavLink>
           </div>
-          <div className="FreshHub">
-            <NavLink to="/FreshHub" className="link" style={{textDecoration: 'none'}}>All Resources</NavLink>
+          <div className="navbutton">
+            <NavLink to="/FreshHub" className="link" style={{textDecoration: 'none'}}>FreshHub</NavLink>
           </div>
-          <div className="Women's Center">
-            <NavLink to="/womxncenter" className="link" style={{textDecoration: 'none'}}>All Resources</NavLink>
+          <div className="navbutton">
+            <NavLink to="/womxncenter" className="link" style={{textDecoration: 'none'}}>Women's Center</NavLink>
           </div>
-          <div className="Safety Escorts">
-            <NavLink to="/safetyEscorts" className="link" style={{textDecoration: 'none'}}>All Resources</NavLink>
+          <div className="navbutton">
+            <NavLink to="/safetyEscorts" className="link" style={{textDecoration: 'none'}}>Safety Escorts</NavLink>
           </div>
           <div className="aboutbutton">
             <NavLink to="/About" className="link" style={{textDecoration: 'none'}}>About</NavLink>
