@@ -1,0 +1,18 @@
+html {
+  background-color: white !important;
+}
+
+.navlogo {
+  width: auto;
+  height: 4rem;
+  margin-left: -3rem;
+  margin-right: 8rem;
+  padding-top: .8rem;
+}
+
+.buttons {
+  padding-top: .75rem;
+  margin-left: 10rem;
+}
+
+
