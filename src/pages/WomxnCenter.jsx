@@ -36,7 +36,7 @@ const WomxnCenter = () =>{
               <Row>
 
                   <Col>
-                    <h3 style={{textAlign: "center", paddingTop: "50px"}}>Womxn's Center for Success</h3>
+                    <h3 style={{textAlign: "center"}}>Womxn's Center for Success</h3>
                     <p>
                       The Womxn's Center for Success at UC Irvine advances gender equality by rasing consciousness on social justice concepts,
                       fostering personal growth, building community connections, encouraging identity development and increasing access to
