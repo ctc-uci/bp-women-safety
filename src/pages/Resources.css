@@ -22,7 +22,7 @@ div .center {
 }
 
 div .Cards {
-  margin-left: 12.5em;
+  margin-left: 0em;
   margin-right: auto;
 }
 
@@ -39,6 +39,6 @@ div .Cards {
 }
 
 .bottomcard {
-  margin-left: 22em;
+  margin-left: 28em;
   padding-bottom: 3rem;
 }
