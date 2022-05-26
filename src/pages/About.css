@@ -10,8 +10,12 @@ div .center {
 .font2 {
   color: purple;
   font-weight: bold;
-  padding-top: 3rem;
+  padding-top: 4rem;
   font-size: .75rem;
+}
+
+.pic {
+  margin-left: 7.5rem;
 }
 
 .a {
@@ -19,14 +23,14 @@ div .center {
 }
 
 .big {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 650;
   padding-bottom: 5rem;
 }
 
 .bold {
   margin-top: 5rem;
-  font-weight: bold;
+  font-weight: 650;
 }
 
 .bigLess {
@@ -78,4 +82,9 @@ div .card {
 .card .name {
   font-weight: bold;
   margin-top: .5rem;
+}
+
+.card4 {
+  margin-left: 15rem;
+  margin-right: 3rem;
 }

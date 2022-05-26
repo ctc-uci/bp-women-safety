@@ -37,7 +37,7 @@ return (
           </div>
           </Col>
           <Col>
-          <img src={aboutpic} style={{height: "400px", width: "400px"}}/>
+          <img className="pic" src={aboutpic} style={{height: "400px", width: "400px"}}/>
           </Col>
 
         </Row>
@@ -71,14 +71,18 @@ return (
           </Row>
           <Row>
             <div className="card">
+            <div className="card4">
               <img className="person" src={person4}></img>
               <p className="name">Rayan Tighiouart</p>
               <p className="title">Developer</p>
             </div>
+            </div>
             <div className="card">
+            <div className="card5">
               <img className="person" src={person5}></img>
               <p className="name">Rachel Villamor</p>
               <p className="title">Developer</p>
+            </div>
             </div>
           </Row>
         </Container>
