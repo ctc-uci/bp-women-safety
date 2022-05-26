@@ -1,13 +1,35 @@
-import { Outlet } from 'react-router-dom';
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
 import BrandName from '../components/BrandName';
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
 import './Layout.css';
 import WomxnCenter from './WomxnCenter';
 import {Route, Routes} from "react-router-dom";
 
 const Layout = () => {
   return (
+<<<<<<< HEAD
+    <>
+      <nav>
+        <p>Navbar</p>
+        <Link to="/" className="link">
+          Home Page{' '}
+        </Link>
+        <Link to="/Resources" className="link">
+          All Resources Page{' '}
+        </Link>
+        <Link to="/FreshHub" className="link">
+          Fresh Hub{' '}
+        </Link>
+      </nav>
+      <Outlet />
+      <div className="Footer">
+        <Footer />
+        <BrandName />
+      </div>
+    </>
+  );
+=======
   <>
     <nav>
       <p>Navbar</p>
@@ -24,6 +46,7 @@ const Layout = () => {
       <BrandName />
     </div>
   </>);
+>>>>>>> main
 };
 
 export default Layout;
