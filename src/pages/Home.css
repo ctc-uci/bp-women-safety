@@ -6,3 +6,13 @@
 html {
   font-family: 'Avenir';
 }
+
+.cardBody {
+  background-color: #F0E6FA;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.col1 {
+  margin-left: 6rem;
+}
