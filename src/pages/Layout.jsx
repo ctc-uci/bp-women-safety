@@ -11,6 +11,7 @@ const Layout = () => {
       <p>Navbar</p>
       <Link to="" className="link">Home Page</Link>
       <Link to="/Resources" className="link">All Resources Page</Link>
+      <Link to="/About" className="link">About Page</Link>
     </nav>
     <Outlet />
     <div className="Footer">
