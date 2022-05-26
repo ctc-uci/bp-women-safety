@@ -2,7 +2,9 @@ import { Outlet } from 'react-router-dom';
 import BrandName from '../components/BrandName';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import About from "./About.jsx";
 import './Layout.css';
+
 
 const Layout = () => {
   return (
@@ -10,6 +12,7 @@ const Layout = () => {
     <nav>
       <p>Navbar</p>
       <Link to="" className="link">Home Page</Link>
+      <Link to="/About" element={<About/>} className="link">About Page</Link>
       <Link to="/Resources" className="link">All Resources Page</Link>
     </nav>
     <Outlet />
