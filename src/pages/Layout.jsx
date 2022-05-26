@@ -8,7 +8,6 @@ import {Route, Routes} from "react-router-dom";
 
 const Layout = () => {
   return (
-<<<<<<< HEAD
     <>
       <nav>
         <p>Navbar</p>
@@ -21,6 +20,15 @@ const Layout = () => {
         <Link to="/FreshHub" className="link">
           Fresh Hub{' '}
         </Link>
+        <Link to="/About" className="link">
+          About Page {' '}
+        </Link>
+        <Link to="/womxncenter" >
+          Womxn Center{' '}
+        </Link>
+      < Link to="/safetyEscorts">
+         Safety Escorts{' '}
+        </Link>
       </nav>
       <Outlet />
       <div className="Footer">
@@ -29,24 +37,6 @@ const Layout = () => {
       </div>
     </>
   );
-=======
-  <>
-    <nav>
-      <p>Navbar</p>
-      <Link to="" className="link">Home Page  </Link>
-      <Link to="/Resources" className="link">All Resources Page  </Link>
-      <Link to="/About" className="link">About Page</Link>
-      <Link to="/womxncenter" >Womxn Center  </Link>
-      <Link to="/safetyEscorts"> Safety Escorts </Link>
-
-    </nav>
-    <Outlet />
-    <div className="Footer">
-      <Footer />
-      <BrandName />
-    </div>
-  </>);
->>>>>>> main
 };
 
 export default Layout;
