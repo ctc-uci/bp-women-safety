@@ -14,7 +14,7 @@ function Footer() {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossOrigin="anonymous"
       />
-
+      <div className="footer">
       <Container>
         <Row>
           <Col>
@@ -71,6 +71,7 @@ function Footer() {
           </Col>
         </Row>
       </Container>
+      </div>
     </>
   );
 }
