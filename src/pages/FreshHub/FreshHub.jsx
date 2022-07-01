@@ -2,12 +2,31 @@ import React from 'react';
 import IntroSection from '../../components/IntroSection/IntroSection';
 import freshHub from '../../images/FreshHubPic.jpg';
 import styles from './FreshHub.module.css';
+import resources from './resources';
+import resourceServices from './resourceServices';
 
 const FreshHub = () => {
   const title = 'Fresh Hub';
   const desc =
     'FRESH Basic Needs Hub is a student-initiated effort that promotes equitable access to basic needs through student empowerment, community collaboration, and institutional integration.';
   const link = 'https://basicneeds.uci.edu/';
+
+  const resourceCols = resources.map(resourceInfo => (
+    <div key={resourceInfo.key} className={styles.col}>
+      <img src={resourceInfo.src} alt={resourceInfo.alt} />
+      <div className={styles.subtitle}>{resourceInfo.title}</div>
+      <div className={styles.subdesc}>{resourceInfo.description}</div>
+      <div className={styles.discover}>Discover</div>
+    </div>
+  ));
+
+  const resourceServicesCols = resourceServices.map(resourceInfo => (
+    <div key={resourceInfo.key} className={styles.colCard}>
+      <img src={resourceInfo.src} alt={resourceInfo.alt} />
+      <div className={styles.cardTitle}>{resourceInfo.title}</div>
+      <div className={styles.cardDesc}>{resourceInfo.description}</div>
+    </div>
+  ));
 
   return (
     <>
@@ -22,35 +41,13 @@ const FreshHub = () => {
           </div>
         </div>
 
-        <div className={styles.columns}>
-          <div className={styles.col}>
-            <div className={styles.subtitle}>UCI Food Pantry</div>
-            <div className={styles.subdesc}>
-              The UCI Food Pantry housed at FRESH provides emergency food and toiletries to UCI
-              students experiencing basic needs insecurities. Students can access once a week using
-              Student ID card at the check-in station.
-            </div>
-            <div className={styles.discover}>Discover</div>
-          </div>
-          <div className={styles.col}>
-            <div className={styles.subtitle}>CalFresh Application Assistance</div>
-            <div className={styles.subdesc}>
-              CalFresh is a federal nutrition assistance program that helps people purchase healthy
-              foods at most grocery stores and farmers markets. Students can receive up to $250 per
-              month. FRESH offers 1-1 CalFresh application assistance appointments via Zoom.
-            </div>
-            <div className={styles.discover}>Discover</div>
-          </div>
-          <div className={styles.col}>
-            <div className={styles.subtitle}>Campus Social Worker Consultations</div>
-            <div className={styles.subdesc}>
-              Confidential in-person or Zoom appointments with our on-campus clinical social worker
-              to provide support and guidance to students experiencing financial stress and/or
-              food/housing insecurity. All students are eligible.
-            </div>
-            <div className={styles.discover}>Discover</div>
-          </div>
+        <div className={styles.columns}>{resourceCols}</div>
+      </div>
+      <div className={styles['fresh-hub-resources-main']}>
+        <div className={styles.header}>
+          <div className={styles.title}>Resources & Services</div>
         </div>
+        <div className={styles.columns}>{resourceServicesCols}</div>
       </div>
     </>
   );

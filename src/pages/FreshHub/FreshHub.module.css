@@ -46,6 +46,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .subtitle{
@@ -62,6 +63,28 @@
 }
 
 
+/* CARD */
+
+.colCard{
+  font-size: 12px;
+  width: 285px;
+  color: #616569;
+  text-align: start;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.colCard > img{
+  width: 285px;
+  height: 175px;
+  object-fit: contain;
+}
+
+.cardTitle{
+  font-size: 14px;
+  color: black;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -74,7 +97,7 @@
   }
 
   .columns{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
