@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // import Card from './Card';
-import anime from '../images/woman.jpg';
 import womxnpic from '../images/WomxnCenterPic.jpg'
 import freshpic from '../images/FreshHubPic.jpg'
 import bluelightpic from '../images/BlueLight.jpg'
